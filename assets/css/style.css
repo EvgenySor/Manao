@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header_menu{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.header_menu__item {
+	list-style-type: none;
+	padding-right: 1vw;
+	font-size: 2vw;
+}
+
+.header {
+	display: flex;
+	justify-content: start;
+}
+
+.user_menu{
+	font-size: 2vw;
+}
+
+.form-text{
+	color: red;
+}
+
+.error{
+	width: 100%;
+	height: 50vw;
+	background-color: #bcbcbc;
+	z-index: 10;
+	position: absolute;
+}
+
+.container{
+	position: absolute;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
